@@ -35,7 +35,9 @@ android {
 dependencies {
     // lite version provides only map and some core services.
     implementation 'com.yandex.android:maps.mobile:4.3.1-lite'
-    implementation 'androidx.core:core-ktx:1.7.0'
+    // splash screen
+    implementation 'androidx.core:core-splashscreen:1.0.1'
+    implementation 'androidx.core:core-ktx:1.10.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.8.0'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'

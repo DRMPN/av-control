@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.Window
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import com.yandex.mapkit.MapKitFactory
 import com.yandex.mapkit.geometry.Point
 import com.yandex.mapkit.map.CameraPosition
@@ -18,7 +19,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         this.supportRequestWindowFeature(Window.FEATURE_NO_TITLE)
-
+        installSplashScreen()
         MapKitFactory.initialize(this)
         setContentView(R.layout.activity_main)
 

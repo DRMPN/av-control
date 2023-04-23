@@ -13,7 +13,7 @@ class MainActivity2 : AppCompatActivity() {
         this.supportRequestWindowFeature(Window.FEATURE_NO_TITLE)
         setContentView(R.layout.activity_main2)
 
-        val button = findViewById<Button>(R.id.buttonToActivity1)
+        val button = findViewById<Button>(R.id.buttonToMap)
         button.setOnClickListener {openActivity1()}
     }
 
