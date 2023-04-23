@@ -5,7 +5,7 @@ import com.yandex.mapkit.MapKitFactory
 
 class MainApplication : Application() {
 
-    private val MAPKIT_API_KEY: String = ""
+    private val MAPKIT_API_KEY: String = BuildConfig.YANDEX_MAPKIT_API_KEY
 
     override fun onCreate() {
         super.onCreate()
